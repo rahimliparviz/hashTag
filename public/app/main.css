@@ -1,0 +1,72 @@
+html , body {
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    min-height:100vh;
+    background-image:url("dark-grey-terrazzo/terrazzo.jpg");
+    display: -webkit-box;
+         display: -webkit-flex;
+         display: -ms-flexbox;
+         display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.main-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  height: 800px;
+  width: 100%;
+}
+.main-block .item {
+  width: 100%;
+}
+.main-block .item div {
+  width: 100%;
+  height: 400px;
+}
+.main-block .item:nth-child(1) {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  transform: rotate(-20deg);
+  right: 350px;
+  top: 45px;
+}
+.main-block .item:nth-child(2) {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  transform: rotate(20deg);
+  left: 350px;
+  top: 45px;
+}
+.main-block .item:nth-child(3) {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+.main-block .item:nth-child(4) {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 55%;
+  right: 155px;
+  transform: rotate(-35deg);
+
+}
+.main-block .item:nth-child(5) {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 55%;
+  left: 155px;
+  transform: rotate(35deg);
+}
